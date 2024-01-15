@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('casa.jpeg') center top no-repeat;
+  background-size: cover;
+}
+
+#form-container {
+  max-width: 400px;
+  margin: 50px auto; /* Adjust the margin to center the form vertically */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent white background to the form container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a box shadow for a lifted effect */
+}
+
+#logo {
+  display: block;
+  margin: 0 auto 20px; /* Center the logo horizontally and add margin at the bottom */
+  text-align: center; /* Center the content of the block */
+}
+
+
+/* Add your existing form styles here */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
